@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Munazza Shan project inquiry form — request a website package or custom web development project.">
+  <title>Start Your Project | Munazza Shan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#080a0f; --panel:#0f1219; --panel2:#131722; --text:#f4f5f7; --muted:#9aa2b1;
+      --line:rgba(255,255,255,.09); --accent:#c7f36b; --accent2:#91b95c; --max:920px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:"DM Sans",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+    .bg-grid{position:fixed;inset:0;pointer-events:none;opacity:.24;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,black,transparent 75%);z-index:-2}
+    .site-header{height:78px;max-width:var(--max);margin:auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between}
+    .logo{font-weight:800;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
+    .logo span{display:grid;place-items:center;width:34px;height:34px;border-radius:10px;background:var(--accent);color:#0b0e08;font-family:Manrope}
+    .back{font-size:13px;color:var(--muted);font-weight:700}
+    .back:hover{color:#fff}
+    main{max-width:var(--max);margin:auto;padding:70px 24px 100px}
+    .heading{text-align:center;margin-bottom:42px}
+    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#a9b1bf;font-weight:700;margin-bottom:15px}
+    .eyebrow i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--accent);margin-right:8px;box-shadow:0 0 16px var(--accent)}
+    h1,h2{font-family:Manrope,sans-serif;letter-spacing:-.045em;line-height:1.08}
+    h1{font-size:clamp(40px,6vw,66px)}
+    h1 em{color:var(--accent);font-style:normal}
+    .intro{color:var(--muted);font-size:15px;max-width:650px;margin:18px auto 0}
+    .form-card{background:rgba(15,18,25,.92);border:1px solid var(--line);border-radius:20px;padding:34px}
+    .selected{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:18px 20px;background:#11151c;border:1px solid rgba(199,243,107,.28);border-radius:14px;margin-bottom:30px}
+    .selected small{display:block;color:#747c89;font-size:10px;text-transform:uppercase;letter-spacing:.13em;margin-bottom:4px}
+    .selected strong{font:700 19px Manrope;color:var(--accent)}
+    .selected .price{font:800 24px Manrope;white-space:nowrap}
+    form{display:grid;gap:24px}
+    .form-section{display:grid;gap:16px}
+    .section-title{font:700 18px Manrope;margin-bottom:2px}
+    .section-note{font-size:12px;color:#747c89;margin-top:-9px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    label{display:grid;gap:7px;font-size:12px;color:#cbd0d8;font-weight:600}
+    input,select,textarea{width:100%;border:1px solid var(--line);background:#0b0e14;color:var(--text);border-radius:10px;padding:13px 14px;font:400 13px "DM Sans";outline:none;transition:.2s}
+    input::placeholder,textarea::placeholder{color:#59616e}
+    input:focus,select:focus,textarea:focus{border-color:rgba(199,243,107,.65);box-shadow:0 0 0 3px rgba(199,243,107,.07)}
+    select{cursor:pointer}
+    textarea{min-height:140px;resize:vertical}
+    .check-row{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .check{display:flex;align-items:center;gap:9px;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:#0b0e14;color:#aeb4c0;font-size:12px}
+    .check input{width:auto;accent-color:var(--accent)}
+    .submit-row{padding-top:5px;border-top:1px solid var(--line);display:flex;justify-content:flex-end}
+    .submit{border:0;border-radius:10px;background:var(--accent);color:#0a0c08;padding:14px 22px;font-weight:800;font-size:14px;cursor:pointer;transition:.25s}
+    .submit:hover{transform:translateY(-2px);box-shadow:0 10px 35px rgba(199,243,107,.16)}
+    .privacy{font-size:11px;color:#666f7c;text-align:center;margin-top:16px}
+    footer{max-width:var(--max);margin:auto;border-top:1px solid var(--line);padding:28px 24px 40px;display:flex;align-items:center;justify-content:space-between;gap:20px;color:#6f7784;font-size:11px}
+    footer strong{color:#d8dbe0;font-size:13px}
+    footer div{display:flex;flex-direction:column}
+    @media(max-width:650px){
+      .grid,.check-row{grid-template-columns:1fr}
+      .form-card{padding:22px}
+      .selected{align-items:flex-start;flex-direction:column}
+      .selected .price{white-space:normal}
+      .submit-row{justify-content:stretch}
+      .submit{width:100%}
+      footer{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="Munazza Shan home"><span>M</span> Munazza Shan</a>
+    <a class="back" href="index.html">← Back to portfolio</a>
+  </header>
+
+  <main>
+    <div class="heading">
+      <div class="eyebrow"><i></i> Start your project</div>
+      <h1>Let's build your <em>website.</em></h1>
+      <p class="intro">Tell me about your project and the package you're interested in. I'll review your requirements and contact you to discuss the next steps.</p>
+    </div>
+
+    <div class="form-card">
+      <div class="selected">
+        <div>
+          <small>Selected package</small>
+          <strong id="selectedPackage">Custom Website Project</strong>
+        </div>
+        <div class="price" id="selectedPrice">Custom quote</div>
+      </div>
+
+      <form action="https://formsubmit.co/munazza.shan@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Munazza Shan Project Inquiry">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="true">
+        <input type="hidden" name="_next" value="https://munazza-shan-web.github.io/munazza-shan-web/">
+        <input type="hidden" name="_url" value="https://munazza-shan-web.github.io/munazza-shan-web/inquiry-form.html">
+        <input type="hidden" name="selected_package" id="packageField" value="Custom Website Project">
+
+        <div class="form-section">
+          <h2 class="section-title">Your details</h2>
+          <div class="grid">
+            <label>
+              Full name *
+              <input type="text" name="name" placeholder="Your name" required>
+            </label>
+            <label>
+              Email address *
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              Business / company name
+              <input type="text" name="business" placeholder="Your business name">
+            </label>
+            <label>
+              WhatsApp / phone
+              <input type="text" name="phone" placeholder="+1 234 567 890">
+            </label>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h2 class="section-title">Project details</h2>
+          <div class="grid">
+            <label>
+              Package *
+              <select name="package" id="packageSelect" required>
+                <option value="Starter Website Package — $150">Starter — $150</option>
+                <option value="Professional Website Package — $300">Professional — $300</option>
+                <option value="Business Website Package — $500">Business — $500</option>
+                <option value="E-commerce Website Package — $700+">E-commerce — $700+</option>
+                <option value="Custom Website Project">Custom Website — Custom quote</option>
+              </select>
+            </label>
+            <label>
+              Preferred delivery
+              <select name="deadline">
+                <option value="">Select an option</option>
+                <option>As soon as possible</option>
+                <option>Within 1 week</option>
+                <option>Within 2 weeks</option>
+                <option>Within 1 month</option>
+                <option>Flexible</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            What do you need?
+            <textarea name="project_requirements" placeholder="Tell me about your business, the website you want, pages/features you need, examples you like, and anything else that will help me understand the project."></textarea>
+          </label>
+        </div>
+
+        <div class="form-section">
+          <h2 class="section-title">Current website setup</h2>
+          <div class="grid">
+            <label>
+              Existing website
+              <input type="url" name="existing_website" placeholder="https://example.com">
+            </label>
+            <label>
+              Website platform
+              <select name="platform">
+                <option value="">Select if applicable</option>
+                <option>WordPress</option>
+                <option>Shopify</option>
+                <option>Custom / HTML</option>
+                <option>Not sure</option>
+                <option>New website</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="check-row">
+            <label class="check"><input type="checkbox" name="domain_ready" value="Yes"> I already have a domain</label>
+            <label class="check"><input type="checkbox" name="hosting_ready" value="Yes"> I already have hosting</label>
+          </div>
+        </div>
+
+        <div class="submit-row">
+          <button class="submit" type="submit">Submit Project Request ↗</button>
+        </div>
+      </form>
+
+      <p class="privacy">Your project details are used only to review your inquiry and contact you about the project.</p>
+    </div>
+  </main>
+
+  <footer>
+    <div><strong>Munazza Shan</strong><span>Web Developer</span></div>
+    <span>© <span id="year"></span> Munazza Shan</span>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const packageParam = params.get("package");
+
+    const packages = {
+      starter: ["Starter Website Package", "$150"],
+      professional: ["Professional Website Package", "$300"],
+      business: ["Business Website Package", "$500"],
+      ecommerce: ["E-commerce Website Package", "$700+"],
+      custom: ["Custom Website Project", "Custom quote"]
+    };
+
+    const selectedPackage = document.getElementById("selectedPackage");
+    const selectedPrice = document.getElementById("selectedPrice");
+    const packageField = document.getElementById("packageField");
+    const packageSelect = document.getElementById("packageSelect");
+
+    if (packageParam && packages[packageParam]) {
+      const [name, price] = packages[packageParam];
+      selectedPackage.textContent = name;
+      selectedPrice.textContent = price;
+      packageField.value = name + " — " + price;
+
+      const selectMap = {
+        starter: 0,
+        professional: 1,
+        business: 2,
+        ecommerce: 3,
+        custom: 4
+      };
+      packageSelect.selectedIndex = selectMap[packageParam];
+    }
+
+    packageSelect.addEventListener("change", () => {
+      const selected = packageSelect.options[packageSelect.selectedIndex];
+      packageField.value = selected.value;
+      selectedPackage.textContent = selected.textContent.split(" — ")[0];
+      selectedPrice.textContent = selected.textContent.includes("—")
+        ? selected.textContent.split(" — ")[1]
+        : "Custom quote";
+    });
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
