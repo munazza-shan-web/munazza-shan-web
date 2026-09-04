@@ -94,7 +94,7 @@ A modern healthcare website designed with a clean SaaS-style interface and profe
 
 A professional law firm website featuring attorneys, practice areas, case results, legal insights, and a consultation-focused user experience.
 
-[View Repository](https://github.com/munazza-shan-web/sterling-cole-law-firm)
+[Live Website](https://munazza-shan-web.github.io/sterling-cole-law-firm/)
 
 ---
 
@@ -104,7 +104,7 @@ A professional law firm website featuring attorneys, practice areas, case result
 
 A luxury hotel and resort website featuring rooms and suites, booking-style availability, amenities, gallery, testimonials, and guest-focused design.
 
-[View Repository](https://github.com/munazza-shan-web/aurelia-cove-resort)
+[Live Website](https://munazza-shan-web.github.io/aurelia-cove-resort/)
 
 ---
 
@@ -114,7 +114,7 @@ A luxury hotel and resort website featuring rooms and suites, booking-style avai
 
 A modern restaurant website featuring an interactive menu, table reservations, gallery, opening hours, testimonials, and contact information.
 
-[View Repository](https://github.com/munazza-shan-web/savorra-kitchen)
+[Live Website](https://munazza-shan-web.github.io/savorra-kitchen/)
 
 ---
 
@@ -124,7 +124,7 @@ A modern restaurant website featuring an interactive menu, table reservations, g
 
 A conversion-focused home services website featuring service areas, projects, before-and-after sections, quote requests, testimonials, and interactive functionality.
 
-[View Repository](https://github.com/munazza-shan-web/forgecrest-home-services)
+[Live Website](https://munazza-shan-web.github.io/forgecrest-home-services/)
 
 ---
 
@@ -134,7 +134,7 @@ A conversion-focused home services website featuring service areas, projects, be
 
 A professional local dental clinic website featuring treatments, doctor profiles, searchable FAQs, patient testimonials, contact information, and a multi-step appointment request experience.
 
-[View Repository](https://github.com/munazza-shan-web/brightline-dental-care)
+[Live Website](https://munazza-shan-web.github.io/brightline-dental-care/)
 
 ---
 
