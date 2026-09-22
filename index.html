@@ -3,311 +3,161 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Munazza Shan — Web Developer portfolio featuring responsive websites, SaaS interfaces, e-commerce experiences and business websites.">
-  <title>Munazza Shan | Web Developer</title>
+  <meta name="description" content="Munazza Shan is a full-stack web developer building business websites, SaaS applications, e-commerce experiences and secure REST APIs.">
+  <meta name="theme-color" content="#080a0f">
+  <meta property="og:title" content="Munazza Shan | Full-Stack Web Developer">
+  <meta property="og:description" content="Full-stack applications, REST APIs and client-focused websites built for real business goals.">
+  <meta property="og:type" content="website">
+  <title>Munazza Shan | Full-Stack Web Developer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="bg-grid"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="bg-grid" aria-hidden="true"></div>
 
   <header class="site-header">
-    <a class="logo" href="#home" aria-label="Munazza Shan home"><span>M</span> Munazza Shan</a>
-    <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="nav">
-      <a href="#home">Home</a>
+    <a class="logo" href="#home" aria-label="Munazza Shan home"><span>MS</span> Munazza Shan</a>
+    <button class="menu-btn" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Main navigation">
       <a href="#projects">Projects</a>
-      <a href="#about">About</a>
+      <a href="#services">Services</a>
       <a href="#skills">Skills</a>
-      <a href="#packages">Packages</a>
-      <a href="#contact">Contact</a>
+      <a href="packages.html">Packages</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Start a project</a>
     </nav>
   </header>
 
-  <main id="home">
-    <section class="hero section">
+  <main id="main">
+    <section id="home" class="hero section">
       <div class="hero-copy">
-        <div class="eyebrow"><i></i> Available for web projects</div>
-        <h1>I build modern websites for <em>growing businesses.</em></h1>
-        <p class="hero-text">I'm Munazza Shan, a web developer focused on responsive business websites, SaaS landing pages and e-commerce experiences.</p>
+        <div class="eyebrow"><i></i> Available for freelance and remote opportunities</div>
+        <h1>Full-stack web solutions built for <em>real business goals.</em></h1>
+        <p class="hero-text">I’m Munazza Shan. I build responsive business websites, SaaS applications, e-commerce experiences and secure REST APIs—from interface to database and deployment.</p>
         <div class="hero-actions">
-          <a class="btn primary" href="#projects">View my work <span>↗</span></a>
-          <a class="btn secondary" href="Munazza-Shan-CV.pdf" download>Download CV ↓</a>
-          <a class="btn secondary" href="https://github.com/munazza-shan-web" target="_blank" rel="noopener">GitHub profile</a>
-          <a class="btn primary" href="inquiry-form.html">Get a Free Quote <span>↗</span></a>
+          <a class="btn primary" href="#projects">View featured work <span>↗</span></a>
+          <a class="btn secondary" href="inquiry-form.html">Get a free quote</a>
+          <a class="text-link" href="Munazza-Shan-CV.pdf" download>Download CV ↓</a>
         </div>
-        <div class="hero-stats">
-          <div><strong>11</strong><span>Featured projects</span></div>
-          <div><strong>HTML</strong><span>CSS & JavaScript</span></div>
-          <div><strong>100%</strong><span>Responsive focus</span></div>
+        <div class="hero-proof" aria-label="Portfolio highlights">
+          <div><strong>2</strong><span>Deployed applications</span></div>
+          <div><strong>11+</strong><span>Client-focused websites</span></div>
+          <div><strong>Full stack</strong><span>UI, API and database</span></div>
         </div>
       </div>
-      <div class="hero-art" aria-label="Abstract web design illustration">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="browser">
-          <div class="browser-bar"><span></span><span></span><span></span><small>munazza.dev</small></div>
-          <div class="browser-content">
-            <div class="mini-nav"><b>STUDIO</b><span></span><span></span><span></span></div>
-            <div class="mini-title"></div>
-            <div class="mini-title short"></div>
-            <div class="mini-lines"><i></i><i></i><i></i></div>
-            <div class="mini-cards"><div></div><div></div><div></div></div>
+
+      <div class="hero-art" aria-label="Full-stack application interface illustration">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="browser-window">
+          <div class="browser-bar"><span></span><span></span><span></span><small>clientflow.app/dashboard</small></div>
+          <div class="app-shell">
+            <aside class="app-sidebar"><b>CF</b><i></i><i></i><i></i><i></i></aside>
+            <div class="app-main">
+              <div class="app-heading"><div><small>OVERVIEW</small><strong>Good morning</strong></div><button>+ New project</button></div>
+              <div class="metric-row"><i></i><i></i><i></i></div>
+              <div class="app-panels"><div class="chart-panel"><span></span><span></span><span></span><span></span></div><div class="task-panel"><i></i><i></i><i></i></div></div>
+            </div>
           </div>
         </div>
+        <div class="status-chip"><span></span> API connected</div>
       </div>
+    </section>
+
+    <section class="stack-strip" aria-label="Core technologies">
+      <span>React</span><span>TypeScript</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Prisma</span><span>WordPress</span><span>Shopify</span>
     </section>
 
     <section id="projects" class="section projects-section">
       <div class="section-heading">
-        <div>
-          <div class="eyebrow">Selected work</div>
-          <h2>Projects I've built</h2>
-        </div>
-        <p>A selection of responsive websites I've designed and developed across different industries and business use cases.</p>
+        <div><div class="eyebrow">Featured work</div><h2>Solutions, not just screens.</h2></div>
+        <p>Selected projects demonstrating full-stack development, backend engineering and conversion-focused business websites.</p>
       </div>
 
+      <div class="flagship-grid">
+        <article class="flagship-card">
+          <div class="flagship-visual clientflow-visual">
+            <div class="mini-dashboard"><div class="mini-side"></div><div class="mini-work"><i></i><div><span></span><span></span><span></span></div><b></b><b></b><b></b></div></div>
+          </div>
+          <div class="flagship-content">
+            <div class="project-top"><span>Full-Stack SaaS</span><small>01</small></div>
+            <h3>ClientFlow</h3>
+            <p>A production-deployed PERN project management platform with secure authentication, role-based access, projects, tasks, comments and dashboard analytics.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>PostgreSQL</span><span>Prisma</span></div>
+            <div class="project-links"><a class="project-link live-link" href="https://clientflow-pern-client.vercel.app/" target="_blank" rel="noopener">Open live app ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/clientflow-pern" target="_blank" rel="noopener">View code ↗</a></div>
+          </div>
+        </article>
+
+        <article class="flagship-card">
+          <div class="flagship-visual api-visual">
+            <div class="api-window"><div class="api-top"><i></i><i></i><i></i><span>StockPilot API</span></div><div class="api-line"><b>GET</b><span>/api/products</span><em>200</em></div><div class="api-line"><b class="post">POST</b><span>/api/orders/checkout</span><em>201</em></div><div class="api-code"><i></i><i></i><i></i><i></i></div></div>
+          </div>
+          <div class="flagship-content">
+            <div class="project-top"><span>Backend REST API</span><small>02</small></div>
+            <h3>StockPilot Commerce API</h3>
+            <p>A TypeScript commerce backend with JWT authentication, admin/customer roles, inventory, carts, transaction-safe checkout, automated tests and Swagger documentation.</p>
+            <div class="tags"><span>TypeScript</span><span>Express</span><span>PostgreSQL</span><span>JWT</span><span>Swagger</span></div>
+            <div class="project-links"><a class="project-link live-link" href="https://stockpilot-commerce-api-dcke.vercel.app/api/docs/" target="_blank" rel="noopener">Explore API docs ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/StockPilot-Commerce-API" target="_blank" rel="noopener">View code ↗</a></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="work-heading"><div><span>Selected client websites</span><h3>Built for distinct industries and audiences.</h3></div><a href="https://github.com/munazza-shan-web?tab=repositories" target="_blank" rel="noopener">View all repositories ↗</a></div>
+
       <div class="projects-grid">
-        <article class="project-card featured">
-          <div class="project-visual homepage-shot"><img src="assets/mehran.png" alt="Mehran Estates homepage preview" loading="lazy"></div>
-          <div class="project-body">
-            <div class="project-top"><span>Real Estate</span><small>01</small></div>
-            <h3>Mehran Estates</h3>
-            <p>Premium Pakistani real-estate business website with properties, projects, services, blog, FAQ and contact pages.</p>
-            <div class="tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/mehran-estates/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/mehran-estates" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
+        <article class="project-card"><a class="project-image" href="https://munazza-shan-web.github.io/brightline-dental-care/" target="_blank" rel="noopener"><img src="assets/dental.png" alt="Brightline Dental Care website" loading="lazy"></a><div class="project-body"><div class="project-top"><span>Healthcare</span><small>03</small></div><h3>Brightline Dental</h3><p>Patient-focused clinic website with treatment information, searchable FAQs and appointment requests.</p><div class="project-links"><a class="project-link live-link" href="https://munazza-shan-web.github.io/brightline-dental-care/" target="_blank" rel="noopener">Live website ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/brightline-dental-care" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+        <article class="project-card"><a class="project-image" href="https://munazza-shan-web.github.io/clinovia-healthcare-website/" target="_blank" rel="noopener"><img src="assets/clinovia.png" alt="Clinovia healthcare SaaS website" loading="lazy"></a><div class="project-body"><div class="project-top"><span>Healthcare SaaS</span><small>04</small></div><h3>Clinovia</h3><p>A clean, trust-led healthcare interface designed around clarity, accessibility and modern SaaS patterns.</p><div class="project-links"><a class="project-link live-link" href="https://munazza-shan-web.github.io/clinovia-healthcare-website/" target="_blank" rel="noopener">Live website ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/clinovia-healthcare-website" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+        <article class="project-card"><a class="project-image" href="https://munazza-shan-web.github.io/loomora-ecommerce/" target="_blank" rel="noopener"><img src="assets/loomora.png" alt="Loomora e-commerce website" loading="lazy"></a><div class="project-body"><div class="project-top"><span>E-commerce</span><small>05</small></div><h3>Loomora</h3><p>A polished fashion storefront with collections, product discovery and responsive shopping interactions.</p><div class="project-links"><a class="project-link live-link" href="https://munazza-shan-web.github.io/loomora-ecommerce/" target="_blank" rel="noopener">Live website ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/loomora-ecommerce" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+        <article class="project-card"><a class="project-image" href="https://munazza-shan-web.github.io/sterling-cole-law-firm/" target="_blank" rel="noopener"><img src="assets/sterling.png" alt="Sterling and Cole law firm website" loading="lazy"></a><div class="project-body"><div class="project-top"><span>Legal</span><small>06</small></div><h3>Sterling &amp; Cole</h3><p>A professional law-firm experience focused on authority, practice areas and consultation conversion.</p><div class="project-links"><a class="project-link live-link" href="https://munazza-shan-web.github.io/sterling-cole-law-firm/" target="_blank" rel="noopener">Live website ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/sterling-cole-law-firm" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+        <article class="project-card"><a class="project-image" href="https://munazza-shan-web.github.io/aurelia-cove-resort/" target="_blank" rel="noopener"><img src="assets/aurelia.png" alt="Aurelia Cove Resort website" loading="lazy"></a><div class="project-body"><div class="project-top"><span>Hospitality</span><small>07</small></div><h3>Aurelia Cove</h3><p>A luxury resort website with rooms, amenities, availability and guest-focused presentation.</p><div class="project-links"><a class="project-link live-link" href="https://munazza-shan-web.github.io/aurelia-cove-resort/" target="_blank" rel="noopener">Live website ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/aurelia-cove-resort" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+        <article class="project-card"><a class="project-image" href="https://munazza-shan-web.github.io/forgecrest-home-services/" target="_blank" rel="noopener"><img src="assets/forgecrest.png" alt="Forgecrest Home Services website" loading="lazy"></a><div class="project-body"><div class="project-top"><span>Home Services</span><small>08</small></div><h3>Forgecrest</h3><p>A conversion-focused contractor website with service areas, projects and a multi-step quote flow.</p><div class="project-links"><a class="project-link live-link" href="https://munazza-shan-web.github.io/forgecrest-home-services/" target="_blank" rel="noopener">Live website ↗</a><a class="project-link" href="https://github.com/munazza-shan-web/forgecrest-home-services" target="_blank" rel="noopener">Code ↗</a></div></div></article>
+      </div>
+    </section>
 
-        <article class="project-card">
-          <div class="project-visual homepage-shot"><img src="assets/zenvora.png" alt="Zenvora homepage preview" loading="lazy"></div>
-          <div class="project-body">
-            <div class="project-top"><span>B2B SaaS</span><small>02</small></div>
-            <h3>Zenvora</h3>
-            <p>Modern SaaS interface for growing businesses with analytics, automation, customer management and pricing.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/zenvora-b2b-saas/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/zenvora-b2b-saas" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
+    <section id="services" class="section services-section">
+      <div class="section-heading"><div><div class="eyebrow">Ways I can help</div><h2>Development matched to your goal.</h2></div><p>Choose a focused website build or a complete application with the backend, database and deployment included.</p></div>
+      <div class="services-grid">
+        <article class="service-card"><span>01</span><h3>Full-Stack Applications</h3><p>SaaS dashboards, client portals and custom platforms with responsive interfaces, authentication, databases and deployment.</p><ul><li>React interfaces</li><li>Node.js and Express APIs</li><li>PostgreSQL databases</li></ul></article>
+        <article class="service-card featured-service"><span>02</span><h3>Business &amp; E-commerce Websites</h3><p>Professional websites designed to build trust, explain your offer and guide visitors toward enquiries or purchases.</p><ul><li>WordPress and Shopify</li><li>Responsive custom websites</li><li>Landing pages and stores</li></ul></article>
+        <article class="service-card"><span>03</span><h3>Backend APIs &amp; Integrations</h3><p>Secure REST APIs, authentication, database design and third-party integrations for new or existing products.</p><ul><li>JWT and role permissions</li><li>API documentation</li><li>Testing and deployment</li></ul></article>
+      </div>
+    </section>
 
-        <article class="project-card">
-          <div class="project-visual homepage-shot"><img src="assets/loomora.png" alt="Loomora homepage preview" loading="lazy"></div>
-          <div class="project-body">
-            <div class="project-top"><span>E-commerce</span><small>03</small></div>
-            <h3>Loomora</h3>
-            <p>8-page fashion e-commerce concept with product collections, category pages, new arrivals and shopping interactions.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/loomora-ecommerce/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/loomora-ecommerce" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot"><img src="assets/clinovia.png" alt="Clinovia homepage preview" loading="lazy"></div>
-          <div class="project-body">
-            <div class="project-top"><span>Healthcare SaaS</span><small>04</small></div>
-            <h3>Clinovia</h3>
-            <p>Clean digital healthcare platform concept designed around trust, clarity, accessibility and modern SaaS patterns.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/clinovia-healthcare-website/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/clinovia-healthcare-website" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot"><img src="assets/nexora.png" alt="Nexora homepage preview" loading="lazy"></div>
-          <div class="project-body">
-            <div class="project-top"><span>AI / Startup</span><small>05</small></div>
-            <h3>Nexora</h3>
-            <p>AI-powered productivity platform landing page with dashboard UI, pricing, testimonials, FAQ and startup-focused UX.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/nexora-ai-productivity/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/nexora-ai-productivity" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot"><img src="assets/oakstone.png" alt="Oakstone Realty homepage preview" loading="lazy"></div>
-          <div class="project-body">
-            <div class="project-top"><span>Real Estate</span><small>06</small></div>
-            <h3>Oakstone Realty</h3>
-            <p>Responsive real-estate website built to showcase properties, services, company information and contact details.</p>
-            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/oakstone-realty/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/oakstone-realty" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-                <article class="project-card">
-          <div class="project-visual homepage-shot">
-            <img src="assets/sterling.png" alt="Sterling & Cole law firm homepage preview" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-top"><span>Law Firm</span><small>07</small></div>
-            <h3>Sterling & Cole</h3>
-            <p>Professional attorney website with practice areas, attorneys, case results, legal insights and consultation-focused UX.</p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/sterling-cole-law-firm/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/sterling-cole-law-firm" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot">
-           <img src="assets/aurelia.png" alt="Aurelia Cove Resort homepage preview" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-top"><span>Hotel / Resort</span><small>08</small></div>
-            <h3>Aurelia Cove Resort & Spa</h3>
-            <p>Luxury resort website with rooms, booking-style availability, amenities, gallery, testimonials and guest-focused design.</p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/aurelia-cove-resort/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/aurelia-cove-resort" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot">
-            <img src="assets/savorra.png" alt="Savorra Kitchen restaurant homepage preview" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-top"><span>Restaurant</span><small>09</small></div>
-            <h3>Savorra Kitchen</h3>
-            <p>Modern restaurant website with an interactive menu, table reservations, gallery, opening hours and contact details.</p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/savorra-kitchen/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/savorra-kitchen" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot">
-            <img src="assets/forgecrest.png" alt="Forgecrest Home Services homepage preview" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-top"><span>Home Services</span><small>10</small></div>
-            <h3>Forgecrest Home Services</h3>
-            <p>Contractor website with service areas, project filtering, before/after UI, multi-step quote flow and cost estimator.</p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/forgecrest-home-services/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/forgecrest-home-services" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual homepage-shot">
-            <img src="assets/dental.png" alt="Brightline Dental Care homepage preview" loading="lazy">
-          </div>
-          <div class="project-body">
-            <div class="project-top"><span>Dental Clinic</span><small>11</small></div>
-            <h3>Brightline Dental Care</h3>
-            <p>Local dental clinic website with treatments, doctor filtering, searchable FAQs, testimonials and multi-step appointment requests.</p>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-            </div>
-            <div class="project-links">
-  <a class="project-link live-link" href="https://munazza-shan-web.github.io/brightline-dental-care/" target="_blank" rel="noopener">Live Website <b>↗</b></a>
-  <a class="project-link" href="https://github.com/munazza-shan-web/brightline-dental-care" target="_blank" rel="noopener">View repository <b>↗</b></a>
-</div>
-          </div>
-        </article>
+    <section id="skills" class="section skills-section">
+      <div class="section-heading centered"><div class="eyebrow">Technology stack</div><h2>Tools I use to deliver.</h2></div>
+      <div class="skills-grid">
+        <div class="skill"><b>Frontend</b><strong>React · JavaScript</strong><span>HTML5 · CSS3 · Tailwind · Responsive UI</span></div>
+        <div class="skill"><b>Backend</b><strong>Node.js · TypeScript</strong><span>Express · REST APIs · JWT · Zod</span></div>
+        <div class="skill"><b>Data</b><strong>PostgreSQL · Prisma</strong><span>Relational modelling · Transactions · Neon</span></div>
+        <div class="skill"><b>CMS &amp; Commerce</b><strong>WordPress · Shopify</strong><span>Elementor · WooCommerce · Store UX</span></div>
+        <div class="skill"><b>Quality &amp; Security</b><strong>Testing · Validation</strong><span>Vitest · Supertest · Helmet · Rate limiting</span></div>
+        <div class="skill"><b>Workflow</b><strong>Git · Docker</strong><span>GitHub · Vercel · Swagger · Deployment</span></div>
       </div>
     </section>
 
     <section id="about" class="section about-section">
       <div class="about-card">
-        <div class="about-number">11<span>+</span></div>
-        <div>
-          <div class="eyebrow">About my work</div>
-          <h2>Designing websites with purpose, not just decoration.</h2>
-          <p>I create clean, responsive websites that help businesses communicate clearly and professionally online. My portfolio includes projects across real estate, healthcare, SaaS, e-commerce, hospitality, legal, restaurants and local service businesses.</p>
-          <p>Each project is built as a practical portfolio concept with attention to layout, hierarchy, responsive behavior and user experience.</p>
-        </div>
+        <div class="about-label"><span>MS</span><small>Full-stack developer</small></div>
+        <div><div class="eyebrow">About my approach</div><h2>Clear communication. Thoughtful execution. A result you can actually use.</h2><p>I build with the business objective in mind—not just the visual layer. That means clear structure, responsive behavior, reliable functionality and a smooth handoff.</p><div class="process"><span><b>01</b> Understand</span><span><b>02</b> Build</span><span><b>03</b> Test</span><span><b>04</b> Launch</span></div></div>
       </div>
     </section>
 
-    <section id="skills" class="section skills-section">
-      <div class="section-heading centered">
-        <div class="eyebrow">What I work with</div>
-        <h2>Core skills</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="skill"><b>01</b><strong>Web Design</strong><span>Clean layouts · Visual hierarchy · UX</span></div>
-        <div class="skill"><b>02</b><strong>HTML & CSS</strong><span>Semantic markup · Responsive design</span></div>
-        <div class="skill"><b>03</b><strong>JavaScript</strong><span>Interactions · Dynamic UI · DOM</span></div>
-        <div class="skill"><b>04</b><strong>WordPress</strong><span>Business sites · Elementor · WooCommerce</span></div>
-        <div class="skill"><b>05</b><strong>E-commerce</strong><span>Product pages · Collections · Store UX</span></div>
-        <div class="skill"><b>06</b><strong>GitHub</strong><span>Version control · Repositories · Pages</span></div>
-      </div>
-    </section>
-
-
-    <section id="packages" class="section packages-section">
-      <div class="section-heading centered">
-        <div class="eyebrow">Website packages</div>
-        <h2>Choose a package that fits your project.</h2>
-        <p>Simple, transparent starting prices for professional websites. Custom requirements can be discussed before work begins.</p>
-      </div>
-      <div class="packages-grid">
-        <article class="package-card"><div class="package-top"><span>Starter</span><small>01</small></div><div class="price">$150 <span>/ project</span></div><p>A clean, responsive website for individuals, small businesses and a simple online presence.</p><ul><li>1–3 pages</li><li>Responsive mobile design</li><li>Contact section/form</li><li>Basic on-page SEO</li><li>3–5 day delivery</li></ul><a class="package-btn" href="inquiry-form.html?package=starter">Get started ↗</a></article>
-<article class="package-card popular"><div class="popular-badge">Most Popular</div><div class="package-top"><span>Professional</span><small>02</small></div><div class="price">$300 <span>/ project</span></div><p>A polished business website designed to build trust and turn visitors into potential customers.</p><ul><li>Up to 6 pages</li><li>Custom responsive design</li><li>Lead/contact forms</li><li>Basic SEO setup</li><li>Social media integration</li><li>5–7 day delivery</li></ul><a class="package-btn" href="inquiry-form.html?package=professional">Get started ↗</a></article>
-<article class="package-card"><div class="package-top"><span>Business</span><small>03</small></div><div class="price">$500 <span>/ project</span></div><p>A larger, conversion-focused website for established businesses and service providers.</p><ul><li>Up to 10 pages</li><li>Premium custom design</li><li>Advanced lead forms</li><li>Blog or portfolio section</li><li>Google Maps integration</li><li>Speed optimization</li><li>7–10 day delivery</li></ul><a class="package-btn" href="inquiry-form.html?package=business">Get started ↗</a></article>
-<article class="package-card"><div class="package-top"><span>E-commerce</span><small>04</small></div><div class="price">$700+ <span>/ project</span></div><p>An online store experience for businesses that need products, collections and shopping functionality.</p><ul><li>Online store setup</li><li>Product/catalog pages</li><li>Shopping cart</li><li>Checkout integration</li><li>Mobile responsive design</li><li>Up to 20 products</li><li>Basic SEO</li></ul><a class="package-btn" href="inquiry-form.html?package=ecommerce">Get started ↗</a></article>
-      </div>
-     <div class="custom-package"><div><div class="eyebrow">Need something different?</div><h3>Custom website projects are welcome.</h3><p>Tell me what you want to build, and I can provide a tailored scope and quote.</p></div><a class="btn secondary" href="inquiry-form.html?package=custom">Discuss a custom project ↗</a></div>
+    <section class="section pricing-section">
+      <div class="pricing-box"><div><div class="eyebrow">Flexible project options</div><h2>Start small or build the complete product.</h2><p>Business websites start from <strong>$150</strong>. Full-stack applications, e-commerce builds and API projects receive a tailored quote based on scope.</p></div><div class="pricing-actions"><a class="btn secondary" href="packages.html">View packages</a><a class="btn primary" href="inquiry-form.html?package=custom">Request a free quote ↗</a></div></div>
     </section>
 
     <section id="contact" class="section contact-section">
       <div class="contact-box">
-        <div>
-          <div class="eyebrow">Let's work together</div>
-          <h2>Have a website idea?<br><em>Let's build it.</em></h2>
-        </div>
-        <div class="contact-actions">
-          <a class="btn primary" href="mailto:munazzashan99@gmail.com">Email me <span>↗</span></a>
-          <a class="btn secondary" href="https://github.com/munazza-shan-web" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
+        <div><div class="eyebrow">Let’s work together</div><h2>Have an idea?<br><em>Let’s make it real.</em></h2><p>Tell me what you want to build and I’ll help define the right next step.</p></div>
+        <div class="contact-actions"><a class="btn dark" href="mailto:munazzashan99@gmail.com">Email me ↗</a><a class="btn outline-dark" href="inquiry-form.html">Project enquiry</a><a class="btn outline-dark" href="https://github.com/munazza-shan-web" target="_blank" rel="noopener">GitHub</a></div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div><strong>Munazza Shan</strong><span>Web Developer</span></div>
-    <p>© <span id="year"></span> Developed By Munazza Shan.</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
-
+  <footer><div><strong>Munazza Shan</strong><span>Full-Stack Web Developer</span></div><p>© <span id="year"></span> Munazza Shan. All rights reserved.</p><a href="#home">Back to top ↑</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
