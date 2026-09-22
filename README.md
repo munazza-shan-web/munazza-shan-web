@@ -1,189 +1,63 @@
-# Hi, I'm Munazza Shan
+<div align="center">
 
-### Full-Stack Web Developer | WordPress & Shopify Specialist | Modern Business & SaaS Websites
+# Munazza Shan
 
-I’m a web developer focused on creating **clean, responsive, modern, and professional websites** for businesses, SaaS products, startups, e-commerce brands, and service-based companies.
+### Full-Stack Web Developer
 
-I enjoy turning ideas into polished websites with a strong focus on **design, usability, responsiveness, and user experience**.
+I build professional business websites, SaaS applications, e-commerce solutions, and secure REST APIs.
 
----
+[View Portfolio](https://munazza-shan-web.github.io/munazza-shan-web/) · [Explore Projects](https://github.com/munazza-shan-web)
 
-##  Skills
-
-* HTML5
-* CSS3
-* JavaScript
-* WordPress
-* Elementor
-* WooCommerce
-* Shopify
-* Responsive Web Design
-* Landing Page Development
-* Business Website Development
-* E-commerce Website Development
+</div>
 
 ---
 
-#  Completed Projects
+### Skills
 
-Here are some of my completed web development projects:
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" />
+</p>
 
-### 🏠 Mehran Estates
-
-**Real Estate Website**
-
-A professional real estate website designed for a property-focused business.
-
-[Live Website](https://munazza-shan-web.github.io/mehran-estates/)
-
----
-
-###  Zenvora
-
-**B2B SaaS Website**
-
-A modern B2B SaaS website focused on professional product presentation, business solutions, and conversion-focused design.
-
-[Live Website](https://munazza-shan-web.github.io/zenvora-b2b-saas/)
+**Also experienced with:** JavaScript, HTML, CSS, Tailwind CSS, REST APIs, JWT authentication, WooCommerce, Docker, Git, Swagger, Neon, Vercel, Vitest and Supertest.
 
 ---
 
-###  Loomora
+### Featured Projects
 
-**E-commerce Website**
-
-A modern online storefront designed with a clean shopping experience, product-focused presentation, and responsive design.
-
-[Live Website](https://munazza-shan-web.github.io/loomora-ecommerce/)
-
----
-
-###  Nexora
-
-**AI-Powered Productivity Platform**
-
-A modern SaaS concept for an AI-powered productivity platform designed to help users organize work and improve productivity.
-
-[Live Website](https://munazza-shan-web.github.io/nexora-ai-productivity/)
+| Project               | What it delivers                                                                                                       | Links                                                                                                                                       |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ClientFlow**        | Full-stack project management SaaS with authentication, user roles, projects, tasks, comments and dashboard analytics. | [Live App](https://clientflow-pern-client.vercel.app/) · [Code](https://github.com/munazza-shan-web/clientflow-pern)                        |
+| **StockPilot API**    | E-commerce backend with products, inventory, carts, JWT authentication, transaction-safe checkout and API testing.     | [API Docs](https://stockpilot-commerce-api-dcke.vercel.app/api/docs/) · [Code](https://github.com/munazza-shan-web/StockPilot-Commerce-API) |
+| **Clinovia**          | Responsive healthcare SaaS website with a professional, patient-focused interface.                                     | [Live Site](https://munazza-shan-web.github.io/clinovia-healthcare-website/)                                                                |
+| **Brightline Dental** | Dental clinic website with treatment information, FAQs, testimonials and appointment requests.                         | [Live Site](https://munazza-shan-web.github.io/brightline-dental-care/)                                                                     |
+| **Loomora**           | Responsive e-commerce storefront with clean product presentation and shopping-focused design.                          | [Live Site](https://munazza-shan-web.github.io/loomora-ecommerce/)                                                                          |
 
 ---
 
-###  Oakstone Realty
+### What I Can Build
 
-**Real Estate Agency Website**
-
-A professional real estate website featuring property-focused content, services, and a clean responsive interface.
-
-[Live Website](https://munazza-shan-web.github.io/oakstone-realty/)
-
----
-
-###  Clinovia
-
-**Healthcare Website**
-
-A modern healthcare website designed with a clean SaaS-style interface and professional healthcare-focused presentation.
-
-[Live Website](https://munazza-shan-web.github.io/clinovia-healthcare-website/)
+* Full-stack web applications and SaaS dashboards
+* Secure REST APIs and database systems
+* Business, healthcare and service websites
+* WordPress, WooCommerce and Shopify websites
+* E-commerce stores and landing pages
+* Responsive redesigns and API integrations
 
 ---
 
-###  Sterling & Cole
+<div align="center">
 
-**Law Firm / Attorney Website**
+### Have a project in mind?
 
-A professional law firm website featuring attorneys, practice areas, case results, legal insights, and a consultation-focused user experience.
+I can help turn your idea into a professional, responsive and production-ready solution.
 
-[Live Website](https://munazza-shan-web.github.io/sterling-cole-law-firm/)
+[View My Work](https://munazza-shan-web.github.io/munazza-shan-web/) · [GitHub Profile](https://github.com/munazza-shan-web)
 
----
-
-###  Aurelia Cove Resort & Spa
-
-**Hotel & Resort Website**
-
-A luxury hotel and resort website featuring rooms and suites, booking-style availability, amenities, gallery, testimonials, and guest-focused design.
-
-[Live Website](https://munazza-shan-web.github.io/aurelia-cove-resort/)
-
----
-
-###  Savorra Kitchen
-
-**Restaurant Website**
-
-A modern restaurant website featuring an interactive menu, table reservations, gallery, opening hours, testimonials, and contact information.
-
-[Live Website](https://munazza-shan-web.github.io/savorra-kitchen/)
-
----
-
-###  Forgecrest Home Services
-
-**Construction & Home Services Website**
-
-A conversion-focused home services website featuring service areas, projects, before-and-after sections, quote requests, testimonials, and interactive functionality.
-
-[Live Website](https://munazza-shan-web.github.io/forgecrest-home-services/)
-
----
-
-###  Brightline Dental Care
-
-**Dental Clinic Website**
-
-A professional local dental clinic website featuring treatments, doctor profiles, searchable FAQs, patient testimonials, contact information, and a multi-step appointment request experience.
-
-[Live Website](https://munazza-shan-web.github.io/brightline-dental-care/)
-
----
-
-#  My Portfolio
-
-### Munazza Shan — Web Developer Portfolio
-
-My personal portfolio website showcasing my skills, projects, services, and web development work.
-
-[Visit My Portfolio](https://munazza-shan-web.github.io/munazza-shan-web/)
-
----
-
-#  Project Categories
-
-| Project | Category |
-| --- | --- |
-| Mehran Estates | Real Estate |
-| Zenvora | B2B SaaS |
-| Loomora | E-commerce |
-| Nexora | AI & Productivity |
-| Oakstone Realty | Real Estate |
-| Clinovia | Healthcare |
-| Sterling & Cole | Law Firm / Legal |
-| Aurelia Cove Resort & Spa | Hotel / Hospitality |
-| Savorra Kitchen | Restaurant |
-| Forgecrest Home Services | Construction / Home Services |
-| Brightline Dental Care | Dental / Healthcare |
-
----
-
-##  What I Build
-
-I create websites for:
-
-**Business • SaaS • Real Estate • Healthcare • Dental Clinics • E-commerce • Startups • Law Firms • Hotels & Resorts • Restaurants • Construction & Home Services**
-
-My goal is to build websites that look **professional, realistic, responsive, and ready for real-world use**.
-
----
-
-##  Let's Connect
-
-**GitHub:** [munazza-shan-web](https://github.com/munazza-shan-web)
-
-**Portfolio:** [View My Portfolio](https://munazza-shan-web.github.io/munazza-shan-web/)
-
----
-
-### Thanks for visiting my profile! 👋
-
-Feel free to explore my repositories and completed projects.
+</div>
