@@ -1,153 +1,63 @@
 <div align="center">
 
-# Hi, I'm Munazza Shan 👋
+# Munazza Shan
 
 ### Full-Stack Web Developer
 
-Building responsive websites, scalable web applications & REST APIs.
+I build professional business websites, SaaS applications, e-commerce solutions, and secure REST APIs.
 
-<br>
-
-<a href="https://munazza-shan-web.github.io/myportfolio/">
-  <img src="https://img.shields.io/badge/VIEW_PORTFOLIO-0969DA?style=for-the-badge&logo=googlechrome&logoColor=white" />
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/munazza-shan-634459438">
-  <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+[View Portfolio](https://munazza-shan-web.github.io/munazza-shan-web/) · [Explore Projects](https://github.com/munazza-shan-web)
 
 </div>
 
 ---
 
-## About Me
+### Skills
 
-I'm a **Full-Stack Web Developer** focused on building modern, responsive and user-friendly digital products.
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white" />
+  <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" />
+</p>
 
-I work across frontend and backend development — from creating polished interfaces to developing REST APIs, authentication systems and database-driven applications.
-
-I also build business websites using **WordPress, Elementor and Shopify**.
-
-- 💻 Building full-stack web applications
-- ⚡ Developing REST APIs & backend systems
-- 🎨 Creating responsive, modern interfaces
-- 🛒 Working with WordPress & Shopify
-- 🚀 Deploying production-ready applications
-- 🌍 Open to remote opportunities & freelance projects
-
----
-
-## Tech Stack
-
-### Frontend
-
-![HTML5](https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-20232A?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
-
-### Backend & Database
-
-![Node.js](https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=node.js&logoColor=5FA04E)
-![Express.js](https://img.shields.io/badge/Express.js-20232A?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-20232A?style=for-the-badge&logo=postgresql&logoColor=4169E1)
-![Prisma](https://img.shields.io/badge/Prisma-20232A?style=for-the-badge&logo=prisma&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-20232A?style=for-the-badge&logo=fastapi&logoColor=009688)
-
-### CMS & E-Commerce
-
-![WordPress](https://img.shields.io/badge/WordPress-20232A?style=for-the-badge&logo=wordpress&logoColor=21759B)
-![Elementor](https://img.shields.io/badge/Elementor-20232A?style=for-the-badge&logo=elementor&logoColor=92003B)
-![Shopify](https://img.shields.io/badge/Shopify-20232A?style=for-the-badge&logo=shopify&logoColor=7AB55C)
-
-### Tools & Deployment
-
-![Git](https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-20232A?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Vercel](https://img.shields.io/badge/Vercel-20232A?style=for-the-badge&logo=vercel&logoColor=white)
+**Also experienced with:** JavaScript, HTML, CSS, Tailwind CSS, REST APIs, JWT authentication, WooCommerce, Docker, Git, Swagger, Neon, Vercel, Vitest and Supertest.
 
 ---
 
-# Featured Full-Stack Projects
+### Featured Projects
 
-## ClientFlow — Project Management SaaS
-
-A full-stack **PERN project management application** built to manage teams, projects and tasks through a secure role-based system.
-
-**Key Features**
-
-`JWT Authentication` • `Role-Based Access` • `Projects & Tasks` • `Comments` • `Filtering` • `Pagination` • `Progress Tracking` • `Cloud Uploads`
-
-**Tech**
-
-`React` `Node.js` `Express.js` `PostgreSQL` `Prisma` `Tailwind CSS`
-
-🔗 [Live Application](https://clientflow-pern-client.vercel.app/)
-
-⚙️ [API Health](https://clientflow-pern-server.vercel.app/api/health)
+| Project               | What it delivers                                                                                                       | Links                                                                                                                                       |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **ClientFlow**        | Full-stack project management SaaS with authentication, user roles, projects, tasks, comments and dashboard analytics. | [Live App](https://clientflow-pern-client.vercel.app/) · [Code](https://github.com/munazza-shan-web/clientflow-pern)                        |
+| **StockPilot API**    | E-commerce backend with products, inventory, carts, JWT authentication, transaction-safe checkout and API testing.     | [API Docs](https://stockpilot-commerce-api-dcke.vercel.app/api/docs/) · [Code](https://github.com/munazza-shan-web/StockPilot-Commerce-API) |
+| **Clinovia**          | Responsive healthcare SaaS website with a professional, patient-focused interface.                                     | [Live Site](https://munazza-shan-web.github.io/clinovia-healthcare-website/)                                                                |
+| **Brightline Dental** | Dental clinic website with treatment information, FAQs, testimonials and appointment requests.                         | [Live Site](https://munazza-shan-web.github.io/brightline-dental-care/)                                                                     |
+| **Loomora**           | Responsive e-commerce storefront with clean product presentation and shopping-focused design.                          | [Live Site](https://munazza-shan-web.github.io/loomora-ecommerce/)                                                                          |
 
 ---
 
-## StockPilot — Commerce API
+### What I Can Build
 
-A secure RESTful commerce backend built with **Node.js, Express and TypeScript**.
-
-**Key Features**
-
-`JWT Authentication` • `REST Architecture` • `Validation` • `Rate Limiting` • `Helmet` • `CORS` • `Swagger Documentation`
-
-**Tech**
-
-`Node.js` `Express.js` `TypeScript` `REST API` `JWT`
-
-📚 [View API Documentation](https://stockpilot-commerce-api-dcke.vercel.app/api/docs)
+* Full-stack web applications and SaaS dashboards
+* Secure REST APIs and database systems
+* Business, healthcare and service websites
+* WordPress, WooCommerce and Shopify websites
+* E-commerce stores and landing pages
+* Responsive redesigns and API integrations
 
 ---
 
-# Selected Frontend Projects
+<div align="center">
 
-### 🏥 Clinovia — Healthcare SaaS
+### Have a project in mind?
 
-Modern multi-page healthcare SaaS website with responsive layouts and a clean professional interface.
+I can help turn your idea into a professional, responsive and production-ready solution.
 
-[View Live Project](https://munazza-shan-web.github.io/clinovia-healthcare-website/)
+[View My Work](https://munazza-shan-web.github.io/myportfolio/) · [GitHub Profile](https://github.com/munazza-shan-web)
 
----
-
-### 🏡 Oakstone Realty
-
-Responsive real-estate website designed around property discovery and conversion-focused user experiences.
-
-[View Live Project](https://munazza-shan-web.github.io/oakstone-realty/)
-
----
-
-### ⚡ Zenvora — B2B SaaS
-
-Modern B2B SaaS website featuring a clean interface, responsive design and conversion-focused sections.
-
-[View Live Project](https://munazza-shan-web.github.io/zenvora-b2b-saas/)
-
----
-
-### 🛍️ Loomora — E-Commerce
-
-Responsive multi-page e-commerce frontend focused on product presentation and intuitive shopping experiences.
-
-[View Live Project](https://munazza-shan-web.github.io/loomora-ecommerce/)
-
----
-
-## What I Build
-
-```text
-Full-Stack Web Applications
-REST APIs & Backend Systems
-Business & SaaS Websites
-WordPress / Elementor Websites
-Shopify Stores
-Responsive Frontend Interfaces
-API Integrations
-Database-Driven Applications
+</div>
