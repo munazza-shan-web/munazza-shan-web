@@ -6,7 +6,7 @@
 
 I build professional business websites, SaaS applications, e-commerce solutions, and secure REST APIs.
 
-[View Portfolio](https://munazza-shan-web.github.io/myportfolio/) · [Explore Projects](https://github.com/munazza-shan-web)
+[View Portfolio](https://munazza-shan-web.github.io/portfolio/) · [Explore Projects](https://github.com/munazza-shan-web)
 
 </div>
 
