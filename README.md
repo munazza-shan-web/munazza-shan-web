@@ -58,6 +58,6 @@ I build professional business websites, SaaS applications, e-commerce solutions,
 
 I can help turn your idea into a professional, responsive and production-ready solution.
 
-[View My Work](https://munazza-shan-web.github.io/myportfolio/) · [GitHub Profile](https://github.com/munazza-shan-web)
+[View My Work](https://munazza-shan-web.github.io/portfolio/) · [GitHub Profile](https://github.com/munazza-shan-web)
 
 </div>
